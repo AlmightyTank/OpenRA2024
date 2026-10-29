@@ -1,0 +1,11 @@
+World:
+	LuaScript:
+		Scripts: campaign.lua, utils.lua, northern-line.lua
+	MissionData:
+		Briefing: Canada has rejected President Grant Rourke's emergency rule. Hold the northern evacuation corridor while a border communications relay is recovered. The relay may contain evidence that the crisis was engineered by Rourke's regime. United States occupation forces are moving to destroy it.
+
+Player:
+	PlayerResources:
+		DefaultCash: 2000
+	MissionObjectives:
+		EarlyGameOver: true
