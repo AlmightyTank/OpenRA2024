@@ -74,7 +74,7 @@ if [ "${AUTOMATIC_ENGINE_MANAGEMENT}" = "True" ]; then
 	rmdir "${AUTOMATIC_ENGINE_EXTRACT_DIRECTORY}"
 	rm "${AUTOMATIC_ENGINE_TEMP_ARCHIVE_NAME}"
 
-	# HACK: Remove bogus lint check that the Example mod can't possibly pass
+	# HACK: Remove bogus lint check that the OpenRA2028 mod can't possibly pass
 	# because to do so it would need to define a lot of excess things surrounding resources.
 	rm ${ENGINE_DIRECTORY}/OpenRA.Mods.Common/Lint/CheckFluentReferences.cs
 

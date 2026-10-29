@@ -1,0 +1,45 @@
+^baseworld:
+	Inherits: ^palettes
+	ActorMap:
+	AlwaysVisible:
+	ControlGroups:
+	Faction@Random:
+		InternalName: Random
+		Name: faction-random.name
+		RandomFactionMembers: openra2028
+		Description: faction-random.description
+	Faction@openra2028:
+		InternalName: openra2028
+		Name: faction-openra2028.name
+		Description: faction-openra2028.description
+	LoadWidgetAtGameStart:
+	MusicPlaylist:
+	ScreenMap:
+	Selection:
+	TerrainRenderer:
+
+world:
+	Inherits: ^baseworld
+	ColorPickerManager:
+		PreviewActor: openra2028.colorpicker
+	CreateMapPlayers:
+	CustomTerrainDebugOverlay:
+	DebugVisualizations:
+	MapStartingLocations:
+	SpawnMapActors:
+	SpawnStartingUnits:
+	StartingUnits@OpenRA2028:
+		BaseActor: openra2028
+		Factions: openra2028
+		ClassName: options-starting-units.unlabeled
+
+editorworld:
+	Inherits: ^baseworld
+	BuildableTerrainOverlay:
+		AllowedTerrainTypes:
+		Palette:
+	EditorActionManager:
+	EditorActorLayer:
+	EditorCursorLayer:
+	MarkerLayerOverlay:
+	TerrainGeometryOverlay:

@@ -1,0 +1,18 @@
+General:
+	Name: OpenRA2028
+	Id: OPENRA2028
+	EditorTemplateOrder: Terrain
+	Palette:
+
+Terrain:
+	TerrainType@Clear:
+		Type: Clear
+
+Templates:
+	Template@255:
+		Id: 255
+		Images: tilesets/openra2028/openra2028.png
+		Size: 1,1
+		Categories: Terrain
+		Tiles:
+			0: Clear

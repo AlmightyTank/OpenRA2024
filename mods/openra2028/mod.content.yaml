@@ -1,0 +1,19 @@
+Missions:
+	openra2028|missions/openra2028.yaml
+
+Music:
+	openra2028|music/openra2028.yaml
+
+Notifications:
+	openra2028|notifications/openra2028.yaml
+
+Rules:
+	openra2028|rules/openra2028.yaml
+	openra2028|rules/mpspawn.yaml
+	openra2028|rules/palettes.yaml
+
+Voices:
+	openra2028|voices/openra2028.yaml
+
+Weapons:
+	openra2028|weapons/openra2028.yaml

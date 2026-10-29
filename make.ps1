@@ -367,7 +367,7 @@ if ($command -eq "all" -or $command -eq "clean" -or $command -eq "check")
 
 		rm $env:AUTOMATIC_ENGINE_EXTRACT_DIRECTORY -r
 
-		# HACK: Remove bogus lint check that the Example mod can't possibly pass
+		# HACK: Remove bogus lint check that the OpenRA2028 mod can't possibly pass
 		# because to do so it would need to define a lot of excess things surrounding resources.
 		rm $env:ENGINE_DIRECTORY/OpenRA.Mods.Common/Lint/CheckFluentReferences.cs
 

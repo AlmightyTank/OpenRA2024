@@ -1,0 +1,17 @@
+openra2028:
+	AlwaysVisible:
+	BodyOrientation:
+	HitShape:
+	Immobile:
+	MapEditorData:
+		Categories: Actors
+	QuantizeFacingsFromSequence:
+	RenderSprites:
+	WithSpriteBody:
+
+openra2028.colorpicker:
+	Inherits: openra2028
+	RenderSprites:
+		Image: openra2028
+		Palette: colorpicker
+	-MapEditorData:
